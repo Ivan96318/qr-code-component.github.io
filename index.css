@@ -28,7 +28,7 @@ body {
 	width: 20rem;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 40%);
+  transform: translate(-50%, 20%);
   border-radius: 20px;
 }
 
