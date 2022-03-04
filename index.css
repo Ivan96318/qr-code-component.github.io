@@ -4,7 +4,10 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
-    position: relative;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .primary-text p {
@@ -21,14 +24,12 @@ body {
   padding-right: 30px;
   text-align: center;
   opacity: 0.5;
+  padding-bottom: 2rem;
 }
 
 .card {
   background-color: white;
 	width: 20rem;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 20%);
   border-radius: 20px;
 }
 
@@ -39,4 +40,3 @@ img {
   margin-top: 1rem;
   border-radius: 10px;
 }
-
